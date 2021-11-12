@@ -555,11 +555,11 @@ body {
 }
 
 a {
-  color: #8d8d8d;
+  color: #131313;
   text-decoration: none;
 }
 a:hover {
-  color: #232323;
+  color: #e86357;
 }
 
 nav {
@@ -626,7 +626,6 @@ img {
   position: relative;
   z-index: 1;
   margin: 1rem 0 1.5rem 0;
-  font-size: 0.8rem;
   opacity: 0;
   animation: fadeIn 0.8s 0.6s ease forwards;
 }
@@ -827,7 +826,7 @@ button {
   }
 
   .description {
-    font-size: 1.25rem;
+    font-size: 1.25rem !important;
     margin: 1rem 0 0 0;
   }
 
@@ -893,7 +892,9 @@ button {
 
 .contact-info {
   text-align: right !important;
-  font-size: 30px;
+  font-size: 28px;
+  font-family: EB Garamond, sans-serif;
+  font-style: italic; 
 }
 
 .rating-info {
@@ -907,7 +908,7 @@ button {
 font-style: italic; 
 font-weight: bold; 
 font-size: 30px; 
-color:black; 
+color:#e86357; 
 margin-top: 30px; 
 cursor: pointer;
 }
