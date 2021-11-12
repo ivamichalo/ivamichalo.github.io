@@ -800,6 +800,9 @@ button {
 }
 
 @media (min-width: 62rem) {
+  body {
+    font-size: 1.8rem;
+  }
   nav ul {
     justify-content: flex-end;
   }
